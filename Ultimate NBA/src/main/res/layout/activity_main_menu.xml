@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainMenuRelative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:id="@+id/mainMenu1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/playNow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/play_now_button"
+            android:onClick="startGame"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainMenu2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:layout_below="@+id/mainMenu1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Options"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/options_button"
+            android:onClick="showOptions"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainMenu3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:layout_below="@+id/mainMenu2"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Stats"
+            android:text="@string/stats_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:onClick="showStats"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

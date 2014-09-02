@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultimate NBA Challenge</string>
+    <string name="action_settings">Settings</string>
+    <string name="play_now_button">Play Now!</string>
+    <string name="options_button">Options</string>
+    <string name="stats_button">Stats</string>
+    <string name="title_activity_display_stats">Stats</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show_options">Options</string>
+    <string name="title_activity_start_game">StartGame</string>
+
+</resources>
